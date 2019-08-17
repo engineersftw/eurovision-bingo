@@ -7,7 +7,7 @@ function extract_random_element(array_) {
 	return array_.splice(index, 1)[0];
 }
 
-var VERSION = "v2";
+var VERSION = "v3";
 
 onLoad = function() {
 	cells = document.querySelectorAll("td");
