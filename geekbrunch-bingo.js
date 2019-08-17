@@ -112,7 +112,7 @@ all_tropes = [
 	"Cycling",
 	"Data Analytics",
 	"Data Mining",
-	"Data privacy"
+	"Data privacy",
 	"Data Science",
 	"Design Patterns",
 	"DevOps",
@@ -160,7 +160,7 @@ all_tropes = [
 	"Karaoke",
 	"Kubernetes",
 	"Laravel",
-	"lighttpd"
+	"lighttpd",
 	"Lycos",
 	"Machine Learning",
 	"MacOS",
