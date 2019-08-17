@@ -192,7 +192,7 @@ all_tropes = [
 	"ROFL",
 	"🤓",
 	"😎",
-	"Noob",
+	"Mid Career Switcher",
 	"RTFM",
 	"Moore's Law",
 	"Murphy's Law",
