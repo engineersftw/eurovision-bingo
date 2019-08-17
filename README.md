@@ -1,7 +1,3 @@
-# eurovision-bingo
-Bingo board for Eurovision Song Contest
+# GeekBrunchSG-bingo
 
-Created for HackerSpaceSG Eurovision Song Contest event 2015.
-Updated for HackerSpaceSG Eurovision Song Contest event 2016.
-
-Please contribute any tropes you deem worthy.
+Bingo Board for GeekBrunch.SG
