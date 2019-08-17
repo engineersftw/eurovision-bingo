@@ -45,18 +45,12 @@ onLoad = function() {
 			event.currentTarget.classList.toggle("checked");
 			state.checked[i] = event.currentTarget.classList.contains("checked");
 			localStorage.setItem(VERSION, JSON.stringify(state));
-			ga('send', 'event',
-				'Cell',
-				event.currentTarget.classList.contains("checked") ? 'check' : 'uncheck',
-				event.currentTarget.textContent);
 		});
 	});
 
 	document.querySelector("#reset").addEventListener("click", function(event) {
 		localStorage.clear();
 		location.reload();
-		ga('send', 'event',
-			'Reset');
 	});
 };
 
