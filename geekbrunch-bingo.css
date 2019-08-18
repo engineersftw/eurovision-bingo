@@ -1,10 +1,10 @@
 
 
 table {
-    table-layout: fixed;
-	width: 80%;
+	table-layout: fixed;
+	width: 100%;
 	margin: 0 auto;
-    border-collapse: collapse;
+	border-collapse: collapse;
 }
 
 td {
@@ -14,14 +14,23 @@ td {
 td {
 
 	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 1.3em;
+	font-size: .9em;
 	text-align: center;
 	vertical-align: center;
 	overflow: hidden;
 }
 
+@media (min-width: 800px) {
+	table {
+		max-width: 80%;
+	}
+	td {
+		font-size: 1.5em;
+	}
+}
+
 td {
-	padding: 1em;
+	padding: 1em 0;
 	width: 15%;
 }
 td.checked {
